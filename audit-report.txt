@@ -1,0 +1,41 @@
+##############################
+1.Enable Anacron Daemon
+Loaded plugins: fastestmirror, langpacks, product-id, search-disabled-repos,
+              : subscription-manager
+
+This system is not registered with an entitlement server. You can use subscription-manager to register.
+
+Loading mirror speeds from cached hostfile
+ * base: mirror.xeonbd.com
+ * epel: mirror-icn.yuki.net.uk
+ * extras: mirror.xeonbd.com
+ * updates: mirror.xeonbd.com
+Package cronie-anacron-1.4.11-25.el7_9.x86_64 already installed and latest version
+Nothing to do
+2.Enable cron
+3. SKIP...
+4.Secure cron file
+5.permissions and ownership
+6.permissions crontab
+7.ownership and permissions on /etc/cron.daily
+8.permissions crontab
+600 0 0
+9.ownership and permissions on /etc/cron.hourly
+10.ownership and permissions on /etc/cron.monthly
+11.ownership and permissions on /etc/cron.weekly
+12.Ownership and permissions crontab
+13.Set User/Group Owner and Permission on /etc/crontab
+14.start rsyslog service 
+15.Collect Changes to System Administration Scope
+16.Collect Discretionary Access Control Permission Modification Events
+17.Collect File Deletion Events by User
+18.Collect Kernel Module Loading and Unloading
+19.Collect Login and Logout Events
+20.Collect Session Initiation Information
+22.Collect System Administrator Actions
+23.Collect Unsuccessful Unauthorized Access Attempts to Files
+24.Configure Audit Log Storage Size
+25.Configure Logging
+28.start Auditd service
+30.Events recorded which modify System's Mandatory Access Controls
+32.Install the rsyslog package

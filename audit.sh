@@ -1,3 +1,4 @@
+echo "made from centos"
 echo "##############################" >> audit-report.txt
 echo "1.Enable Anacron Daemon" >> audit-report.txt
 
